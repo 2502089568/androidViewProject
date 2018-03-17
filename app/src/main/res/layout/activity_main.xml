@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zz.textshadertext.MainActivity">
+
+    <com.example.zz.textshadertext.TopBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:leftBackground="@drawable/ic_launcher_background"
+        custom:leftText="Back"
+        custom:leftTextColor="#FFFFFF"
+        custom:rightBackground="@drawable/ic_launcher_background"
+        custom:rightText="More"
+        custom:rightTextColor="#FFFFFF"
+        custom:title="自定义标题"
+        custom:titleTextColor="#123412"
+        custom:titleTextSize="15sp">
+
+
+    </com.example.zz.textshadertext.TopBar>
+
+    <com.example.zz.textshadertext.newView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Android"
+        android:textSize="30sp" />
+
+    <com.example.zz.textshadertext.ArcView
+        android:layout_height="360dp"
+        android:layout_width="match_parent" />
+
+    <com.example.zz.textshadertext.VolumeView
+        android:layout_height="360dp"
+        android:layout_width="match_parent"  />
+
+</LinearLayout>
+</ScrollView>

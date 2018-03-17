@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:Andorid="http://schemas.android.com/apk/res/android">
+        <item Andorid:state_selected="true" Andorid:color="#FFF"></item>
+        <item Andorid:state_focused="true" Andorid:color="#FFF"></item>
+        <item Andorid:state_pressed="true" Andorid:color="#FFF"></item>
+        <item Andorid:color="#000"/>
+    </selector>

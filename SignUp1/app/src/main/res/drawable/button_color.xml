@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:Andorid="http://schemas.android.com/apk/res/android">
+    <item Andorid:state_pressed="true">
+    <!--定义当button处于pressed状态时的形态。-->
+        <shape>
+            <gradient Andorid:startColor="#8600ff"/>
+            <stroke Andorid:width="2dp" Andorid:color="#000000"/>
+            <corners Andorid:radius="5dp"/>
+            </shape>
+    </item>
+    <item Andorid:state_focused="true">
+        <!--定义当button获得focus时的形态-->
+        <shape>
+            <gradient Andorid:startColor="#eac100"/>
+            <stroke Andorid:width="2dp" Andorid:color="#333333" />
+            <corners Andorid:radius="8dp"/>
+            <padding Andorid:left="10dp" Andorid:top="10dp" Andorid:bottom="10dp" Andorid:right="10dp"/>
+        </shape>
+    </item>
+</selector>

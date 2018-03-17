@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBE7">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:id="@+id/aa"
+    android:layout_height="wrap_content"
+    android:background="#F9FBE7">
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="205dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/a"
+        />
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="205dp"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/b"
+        />
+</LinearLayout>
+
+    <TextView
+        android:layout_below ="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:textColor="#263238"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:text="请记住，无论你身处何方\n       爸爸将永远以你为骄傲"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/bb"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:layout_alignParentEnd="true"
+        android:text="--by zz"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="*纯属玩笑，请不必较真"/>
+</RelativeLayout>

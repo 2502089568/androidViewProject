@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913524609501",
+    "firebase_url": "https://zhangzheng-191de.firebaseio.com",
+    "project_id": "zhangzheng-191de",
+    "storage_bucket": "zhangzheng-191de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913524609501:android:75d46bd006dc9adb",
+        "android_client_info": {
+          "package_name": "sj0202.s2.studyjams.cn.zhangzheng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913524609501-n13e8e3v0s14fd26hfpqbm1q9dgfcc86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sj0202.s2.studyjams.cn.zhangzheng",
+            "certificate_hash": "100fb7d7d248a1993e5dfeb9a4b88a39ba20411e"
+          }
+        },
+        {
+          "client_id": "913524609501-uck1p7nb1v40p56vpboade3isnosobnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvvgch7FnjVSmPwcV9piAOIZqO6PopcbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913524609501-uck1p7nb1v40p56vpboade3isnosobnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

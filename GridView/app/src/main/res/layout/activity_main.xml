@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.zz.gridview.MainActivity">
+<!--
+        android:numColumns=""  auto_fit自动适配    每行显示多少列（均分策略）
+        android:horizontalSpacing=""  两列之间的间距
+        android:verticalSpacing=""    两行之间的间距
+-->
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:gravity="center_horizontal"
+        android:verticalSpacing="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        </GridView>
+</RelativeLayout>
